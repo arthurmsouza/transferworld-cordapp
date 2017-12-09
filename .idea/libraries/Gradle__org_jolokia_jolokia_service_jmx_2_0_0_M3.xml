@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jolokia:jolokia-service-jmx:2.0.0-M3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jolokia/jolokia-service-jmx/2.0.0-M3/266011d99434279fc6d43ac1444bf965f866318b/jolokia-service-jmx-2.0.0-M3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jolokia/jolokia-service-jmx/2.0.0-M3/c8cab51d1c91d67135e00f60501f7a64282d7ba0/jolokia-service-jmx-2.0.0-M3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

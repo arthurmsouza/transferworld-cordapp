@@ -42,14 +42,6 @@ built nodes are located:
 
      cd build/nodes
 
-**Java:**
-
-     cd build/nodes
-
-The Gradle build script will have created a folder for each node. You'll
-see three folders, one for each node and a `runnodes` script. You can
-run the nodes with:
-
 **Unix:**
 
      ./runnodes
@@ -73,10 +65,9 @@ terminal window or in the `build.gradle` file.
      NodeA: localhost:10007
      NodeB: localhost:10010
 
-Sending amount of money from Node A to Node B (we use Party B's X500 organisation. You do not need to use the whole X500 name,
-using only the organisation works. In this case: PartyA, PartyB, Controller, etc.):
+Sending amount of money from Node A to Node B 
 
-    http://localhost:10007/api/transferworld/transfer?target=O=NodeB&amount=100
+    http://localhost:10007/api/transferworld/transfer?target=NodeB&amount=100
 
 Showing all of Node B's amounts:
 

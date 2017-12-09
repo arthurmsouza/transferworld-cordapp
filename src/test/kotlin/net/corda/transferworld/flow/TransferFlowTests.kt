@@ -46,7 +46,7 @@ class TransferFlowTests {
     @Test
     fun flowWorksCorrectly() {
         val transfer = TransferState(a.info.legalIdentities.first(), b.info.legalIdentities.first(), amount)
-        val flow = TransferFlow(amount, b.info.legalIdentities.first())
+        val flow = TransferFlow(b.info.legalIdentities.first(),amount)
         val future = a.services.startFlow(flow).resultFuture
         net.runNetwork()
         val stx = future.getOrThrow()

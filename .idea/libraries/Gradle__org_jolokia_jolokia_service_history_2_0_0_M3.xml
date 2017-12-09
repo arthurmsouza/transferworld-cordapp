@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jolokia:jolokia-service-history:2.0.0-M3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jolokia/jolokia-service-history/2.0.0-M3/230bf80fec717597559f3f50ce781bc1a53c35d0/jolokia-service-history-2.0.0-M3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jolokia/jolokia-service-history/2.0.0-M3/c261656bff5ce57a69b2c733c37ff0bb15035518/jolokia-service-history-2.0.0-M3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

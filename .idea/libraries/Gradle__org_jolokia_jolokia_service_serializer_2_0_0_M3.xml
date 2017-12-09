@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jolokia:jolokia-service-serializer:2.0.0-M3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jolokia/jolokia-service-serializer/2.0.0-M3/f7d6c92d204d6821e74dc416538e671256313091/jolokia-service-serializer-2.0.0-M3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jolokia/jolokia-service-serializer/2.0.0-M3/7fc9c58895494588faedf5ead20350ddd6071cea/jolokia-service-serializer-2.0.0-M3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jolokia:jolokia-service-discovery:2.0.0-M3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jolokia/jolokia-service-discovery/2.0.0-M3/bbbc2e332a047a1513b07c05ecfa10f8e8b630ae/jolokia-service-discovery-2.0.0-M3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jolokia/jolokia-service-discovery/2.0.0-M3/502d284197e6a2c003c136e108ea25d17c304ef2/jolokia-service-discovery-2.0.0-M3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

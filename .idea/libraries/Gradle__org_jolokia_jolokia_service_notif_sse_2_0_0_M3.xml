@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jolokia:jolokia-service-notif-sse:2.0.0-M3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jolokia/jolokia-service-notif-sse/2.0.0-M3/97b12ee9f3bdd4c486822977aef00c7b842e2b6c/jolokia-service-notif-sse-2.0.0-M3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jolokia/jolokia-service-notif-sse/2.0.0-M3/a1dfbe1c954acecb1d0c16998e50faef773dde3/jolokia-service-notif-sse-2.0.0-M3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
