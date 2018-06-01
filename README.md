@@ -53,7 +53,7 @@ built nodes are located:
 You should now have three Corda nodes running on your machine serving
 the TransferWorld CorDapp.
 
-Five windows will open in the terminal. One for each node's node shell, plus webservers for Node A and Node B.
+Five windows will open in the terminal. One for each node's node shell, plus webservers for Bank A and Bank B.
 
 ## Interacting with the CorDapp via HTTP
 
@@ -62,32 +62,32 @@ The TransferWorld CorDapp defines a couple of HTTP API end-points.
 The nodes can be found using the following port numbers output in the web server
 terminal window or in the `build.gradle` file.
 
-     NodeA: localhost:10007
-     NodeB: localhost:10010
+     BankA: localhost:10007
+     BankB: localhost:10010
 
-Sending amount of money from Node A to Node B 
+Sending amount of money from Bank A to Bank B 
 
-    http://localhost:10007/api/transferworld/transfer?target=NodeB&amount=100
+    http://localhost:10007/api/transferworld/transfer?target=BankB&amount=100
 
-Showing all of Node B's amounts:
+Showing all of Bank B's amounts:
 
      http://localhost:10010/api/transferworld/amounts
      
-Finding out who Node B is:
+Finding out who Bank B is:
 
     http://localhost:10010/api/transferworld/me
 
-Finding out who Node B can send amount of money to:
+Finding out who Bank B can send amount of money to:
 
     http://localhost:10010/api/transferworld/peers
 
 ## Using the RPC Client
 
-Use the gradle command (for Node A):
+Use the gradle command (for Bank A):
 
      ./gradlew runTransferWorldRPCNodeA
      
-or (for Node B):
+or (for Bank B):
      
      ./gradlew runTransferWorldRPCNodeB
 
@@ -102,7 +102,7 @@ When the nodes are up and running, use the following command to send a amount of
 
     flow start TransferFlow target: [NODE_NAME]
     
-Where `NODE_NAME` is 'NodeA' or 'NodeB'. The space after the `:` is required. As with the web API, you are not
+Where `NODE_NAME` is 'BankA' or 'BankB'. The space after the `:` is required. As with the web API, you are not
 required to use the full X500 name in the node shell. Note you can't sent a amount of money to yourself because that's not cool!
 
 To see all the amounts of money in your vault:
