@@ -1,6 +1,5 @@
 # TransferWorld CorDapp
 
-**NOTE:** This CorDapp targets Corda v2.0.
 
 Send money to all your friends running Corda nodes!
 
